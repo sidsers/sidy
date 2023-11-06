@@ -10,10 +10,10 @@ int main() {
     // Calculate the kinetic energy
     double kineticEnergy = 0.5 * mass * pow(linearVelocity, 2);
 
-    // Calculate the potential energy 
+    
     double potentialEnergy = 0.0;
 
-    // Calculate the total energy
+   
     double totalEnergy = kineticEnergy + potentialEnergy;
 
    printf( "The total energy of the bowling ball is: %fJoules" ,totalEnergy );
