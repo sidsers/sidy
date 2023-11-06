@@ -120,13 +120,13 @@ int main() {
     printf("Polynomial 1: ");
     displayPolynomial(poly1);
 
-    printf("Polynomial 2: ");
+   // printf("Polynomial 2: ");
     displayPolynomial(poly2);
 
     
     addPolynomial(poly1, poly2);
 
-    printf("Addition Result: ");
+   // printf("Addition Result: ");
     displayPolynomial(poly1);
 
 
